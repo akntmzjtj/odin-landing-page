@@ -1,0 +1,147 @@
+/* debug */
+/* .header,
+.page,
+.footer {
+    border: 2px solid red;
+} */
+
+body {
+    margin: 0;
+    font-family: "Roboto", "Helvetica", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+/* header-top style */
+.header-top {
+    height: 72px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-links {
+    margin: 0;
+    list-style: none;
+
+    display: flex;
+    gap: 16px;
+}
+
+.header-links li a {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-bottom {
+    height: 420px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.main-text,
+.secondary-text {
+    margin-bottom: 12px;
+}
+
+.button-sign-up {
+    background-color: #3882F6;
+    border-style: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
+.button-sign-up a {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+/* image style */
+.header .right {
+    background-color: #E5E7EB;
+    width: 900px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* padding for header and top */
+.header-top,
+.header-bottom {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+/* random information section */
+.random-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-information .title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.random-information .container {
+    display: flex;
+    gap: 56px;
+}
+
+.container .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .item .img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+.container .item .text {
+    color: #1F2937;
+    width: 150px;
+}
+
+.footer {
+    height: 72px;
+}
