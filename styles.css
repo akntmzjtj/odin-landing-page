@@ -145,8 +145,10 @@ a {
     text-align: center;
 }
 
+/* quote section */
 .quote-section {
     background-color: #E5E7EB;
+    padding: 128px;
 
     display: flex;
     flex-direction: column;
@@ -155,8 +157,6 @@ a {
 }
 
 .quote-text {
-    margin-top: 128px;
-
     font-size: 36px;
     color: #1F2937;
     font-weight: lighter;
@@ -164,8 +164,6 @@ a {
 }
 
 .quote-author {
-    margin-bottom: 128px;
-
     font-size: 23px;
     font-weight: bold;
     color: #1F2937;
