@@ -220,5 +220,12 @@ a {
 }
 
 .footer {
-    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    padding: 48px;
+    color: #E5E7EB;
 }
