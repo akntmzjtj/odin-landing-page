@@ -133,8 +133,8 @@ a {
 }
 
 .container .item .img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 4px solid #3882F6;
     border-radius: 8px;
 }
@@ -143,6 +143,38 @@ a {
     color: #1F2937;
     width: 150px;
     text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.quote-text {
+    margin-top: 128px;
+
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    margin-bottom: 128px;
+
+    font-size: 23px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+}
+
+.quote-text,
+.quote-author {
+    width: 770px;
 }
 
 .footer {
