@@ -107,13 +107,13 @@ a {
 }
 
 /* random information section */
-.random-information {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .random-information .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 128px;
+
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
@@ -121,6 +121,7 @@ a {
 
 .random-information .container {
     display: flex;
+    justify-content: center;
     gap: 56px;
 }
 
@@ -128,6 +129,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 12px;
 }
 
 .container .item .img {
@@ -140,6 +142,7 @@ a {
 .container .item .text {
     color: #1F2937;
     width: 150px;
+    text-align: center;
 }
 
 .footer {
