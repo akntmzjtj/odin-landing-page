@@ -177,6 +177,50 @@ a {
     width: 770px;
 }
 
+/* call to action section */
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 96px;
+}
+
+.call-to-action .container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 32px 96px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 156px;
+}
+
+.call-to-action .container .left .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.call-to-action .container .left .text {
+    color: #F9FAF8;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.call-to-action .container .button-sign-up {
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.call-to-action .container .button-sign-up a {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
 .footer {
     height: 72px;
 }
