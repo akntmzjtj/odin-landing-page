@@ -7,6 +7,7 @@
 
 body {
     margin: 0;
+    min-width: 600px;
     font-family: "Roboto", "Helvetica", sans-serif;
 
     display: flex;
@@ -23,9 +24,21 @@ a {
     background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
 /* header-top style */
 .header-top {
-    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-top .container {
+    padding: 24px 0;
+    width: 1000px;
+    flex-grow: 0;
 
     display: flex;
     justify-content: space-between;
@@ -36,10 +49,14 @@ a {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+
+    padding: 0 8px;
 }
 
 .header-links {
     margin: 0;
+    padding: 0 8px;
+
     list-style: none;
 
     display: flex;
@@ -52,12 +69,31 @@ a {
 }
 
 .header-bottom {
-    height: 420px;
+    padding: 128px 0;
+
+    /* Just to centre the text and image container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bottom .container{
+    width: 1000px;
+    gap: 64px;
+    flex-grow: 0;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.header-bottom .left {
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .main-text {
@@ -71,39 +107,28 @@ a {
     font-size: 18px;
 }
 
-.main-text,
-.secondary-text {
-    margin-bottom: 12px;
-}
-
-.button-sign-up {
-    background-color: #3882F6;
+.button-sign-up button {
     border-style: none;
+    background-color: #3882F6;
     padding: 8px 32px;
     border-radius: 8px;
 }
 
-.button-sign-up a {
+.button-sign-up button a {
     color: #F9FAF8;
     font-size: 18px;
 }
 
 /* image style */
-.header .right {
+.header-bottom .container .right {
     background-color: #E5E7EB;
-    width: 900px;
+    width: 400px;
     height: 200px;
 
+    /* just to center text in div */
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/* padding for header and top */
-.header-top,
-.header-bottom {
-    padding-left: 400px;
-    padding-right: 400px;
 }
 
 /* random information section */
