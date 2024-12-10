@@ -101,14 +101,14 @@ a {
     font-size: 18px;
 }
 
-.button-sign-up button {
+.header-bottom .button-sign-up button {
     border-style: none;
     background-color: #3882F6;
     padding: 8px 32px;
     border-radius: 8px;
 }
 
-.button-sign-up button a {
+.header-bottom .button-sign-up button a {
     color: #F9FAF8;
     font-size: 18px;
 }
